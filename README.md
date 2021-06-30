@@ -22,8 +22,8 @@ To use this application you need to create new driver and log in, after you are 
 
 ## Setup
 1. Configure Apache Tomcat
- * Use taxi_service:war exploded
- * Leave Application contex : "/" 
+  - Use taxi_service:war exploded
+  - Leave Application contex : "/" 
 2. Install MySQL and MySQL Workbench
 3. Then in MySQL Workbench create and open new connection with your credentials or use the existing one, open src/main/resources/init_db.sql, File->Open SQL script and execute this script Query->Execute.
 4. In the /util/ConnectionUtil.java class set the USERNAME and PASSWORD properties to the ones you specified when installing MySQL:
